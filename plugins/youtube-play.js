@@ -17,6 +17,11 @@ let handler = async (m, { conn, command, text, usedPrefix }) => {
     ['Video 🎥', `${usedPrefix}ytv ${url} yes`],
     ['Buscador de Youtube🔎', `${usedPrefix}buscaryt ${url}`]
   ], m)
+      let info = `Video y musica en documento`.trim()  
+await conn.sendHydrated(m.chat, info, wm, thumbnail, 'https://www.youtube.com/', 'YOUTUBE', null, null, [
+['Audio 🎧', `${usedPrefix}yta.2 ${url} yes`],
+['Video 🎥', `.ytsearch ${url} yes`]
+], m,)
 }
 handler.help = ['ᴘʟᴀʏ <ᴛɪᴛᴜʟᴏ>','ᴘʟᴀʏ2']
 handler.tags = ['descargas']
