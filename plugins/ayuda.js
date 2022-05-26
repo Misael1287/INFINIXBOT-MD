@@ -29,7 +29,7 @@ Si bien el bot esta activo las 24 horas del dia puede que en determinado momento
     
 🔹*CREADOR*:
     
-Bot GRATUITO creado por Odin, programador novato. 
+Bot GRATUITO creado por Mi, programador novato. 
 
 🔹*LIMITES*
 
@@ -42,7 +42,7 @@ Se admite chat privado,se puede unir grupos (1 por usuario, y NOTA: Esto puede c
     
 🔹*Descarga del bot*:
  
-Bot con descarga totalmente gratuita, link del respositorio en Github donde estan todas las instrucciones como instalar en android y windows: https://github.com/OdinTm/INFINIXBOT-MD
+Bot operativo 
 
 🔹*SUB-BOTS*
 
