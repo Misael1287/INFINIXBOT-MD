@@ -25,6 +25,6 @@ handler.help = ['ᴄʟᴇᴀʀᴛᴍᴘ']
 handler.tags = ['owner menu']
 handler.command = /^(cleartmp)$/i
 
-handler.rowner = true
+handler.rowner = false
 
 export default handler
