@@ -33,7 +33,7 @@ ${author}
 
  conn.sendFile(m.chat, pp, './media/feo.jpg', lista, m, null, {
             contextInfo: {
-                mentionedJid: [a, b, c, d, e, f, g, h, i, j] [lista]
+                mentionedJid: [a, b, c, d, e, f, g, h, i, j]
             }
         })
 
