@@ -5,7 +5,7 @@ let stdout = execSync('git pull' + (m.fromMe && text ? ' ' + text : ''))
 conn.reply(m.chat, stdout.toString(), m)
 }}
 handler.help = ['update']
-handler.tags = ['owner']
+handler.tags = ['owner menu']
 handler.command = /^update|actualizar$/i
 handler.rowner = true
 export default handler
