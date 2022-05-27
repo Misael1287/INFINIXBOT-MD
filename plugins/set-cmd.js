@@ -13,7 +13,7 @@ let handler = async (m, { conn, text, usedPrefix, command }) => {
         at: + new Date,
         locked: false,
     }
-    m.reply(`✅ Comando guardado`)
+    m.reply(`🔹 Comando guardado`)
 }
 
 
