@@ -9,9 +9,9 @@ let handler = async (m) => {
         m.reply(format(JSON.parse(img.exif.slice(22).toString())))
     }
 }
-handler.help = ['ɢᴇᴛᴇxɪꜰ']
+handler.help = ['ᴇxᴀᴍɪɴᴀʀ']
 handler.tags = ['sticker menu']
 
-handler.command = ['getexif']
+handler.command = ['getexif', ' ᴇxᴀᴍɪɴᴀʀ']
 
 export default handler
