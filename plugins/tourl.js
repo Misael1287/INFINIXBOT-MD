@@ -9,8 +9,8 @@ let handler = async (m) => {
   let isTele = /image\/(png|jpe?g|gif)|video\/mp4/.test(mime)
   let link = await (isTele ? uploadImage : uploadFile)(media)
   m.reply(`—————-ｷﾘﾄﾘｾﾝ—————-
-🔼  ${media.length} Byte(s) 
-🔼  ${isTele ? '(Sin fecha de caducidad)' : '(Desconocido)'} 
+🔼  *Tamaño :* ${media.length} Byte(s) 
+🔼  *Vence:* ${isTele ? '(Sin fecha de caducidad)' : '(Desconocido)'} 
 🔼  *URL :* ${link}
 —————-ｷﾘﾄﾘｾﾝ—————-
   `)
