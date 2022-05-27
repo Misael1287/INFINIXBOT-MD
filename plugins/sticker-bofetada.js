@@ -8,7 +8,7 @@ if(!m.mentionedJid.length) m.mentionedJid.push(m.sender)
 let res = await fetch('https://neko-love.xyz/api/v1/slap')
 let json = await res.json()
 let { url } = json
-let stiker = await sticker(null, url, `${name} le dio una bofetada a ${m.mentionedJid.map((user)=>(user === m.sender)? 'alguien ': `+${user.split('@')[0]}`).join(', ')}`)
+let stiker = await sticker(null, url, `+${m.sender.split('@')[0]} le dio una bofetada a ${m.mentionedJid.map((user)=>(user === m.sender)? 'alguien ': `+${user.split('@')[0]}`).join(', ')}`)
 conn.sendFile(m.chat, stiker, null, { asSticker: true })
 } catch (e) { }}
 handler.help = ['ʙᴏꜰᴇᴛᴀᴅᴀ']
