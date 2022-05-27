@@ -24,7 +24,7 @@ conn.sendFile(m.chat, stiker, null, { asSticker: true }, m)
 }}
 
 handler.help = ['ᴇᴍᴏᴊɪᴍɪx <ᴇᴍᴏᴊɪ+ᴇᴍᴏᴊɪ>']
-handler.tags = ['sticker']
+handler.tags = ['sticker menu']
 handler.command = ['emojimix'] 
 handler.limit = false
 
