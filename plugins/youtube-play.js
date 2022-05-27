@@ -27,13 +27,13 @@ let handler = async (m, { conn, command, text, usedPrefix }) => {
     ['Buscador de Youtube🔎', `${usedPrefix}buscaryt ${url}`]
   ], m)
     let info = `Video y musica en documento`.trim()  
-await conn.sendHydrated(m.chat, info, wm, thumbnail, ig, '𝙄𝙣𝙨𝙩𝙖𝙜𝙧𝙖𝙢', null, null, [
+await conn.sendHydrated(m.chat, info, wm, thumbnail, 'https://www.youtube.com', 'YOUTUBE', null, null, [
 ['Audio 🎧', `${usedPrefix}yta.2 ${url} yes`],
 ['𝘽Video 🎥', `.ytv.2 ${url} yes`]
 ], m,)
     
 }catch(e){
-m.reply('🔹Lo sentimos, hubo un error quizas el archivo era muy peado')
+m.reply('🔹Lo sentimos, hubo un error intente nuevamente')
 console.log(e)
 }}
 handler.help = ['play', 'play2'].map(v => v + ' <pencarian>')
