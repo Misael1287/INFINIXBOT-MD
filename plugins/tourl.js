@@ -10,8 +10,8 @@ let handler = async (m) => {
   let link = await (isTele ? uploadImage : uploadFile)(media)
   m.reply(`—————-ｷﾘﾄﾘｾﾝ—————-
 🔼  *Tamaño :* ${media.length} Byte(s) 
-🔼  *Vence:* ${isTele ? '(Sin fecha de caducidad)' : '(Desconocido)'} 
-🔼  *URL :* ${link}
+🔼  *Vence  :* ${isTele ? '(Sin fecha de caducidad)' : '(Desconocido)'} 
+🔼  *URL    :* ${link}
 —————-ｷﾘﾄﾘｾﾝ—————-
   `)
 }
