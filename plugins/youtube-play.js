@@ -15,8 +15,7 @@ let handler = async (m, { conn, command, text, usedPrefix }) => {
   `.trim(), author, thumbnail, url, '📺Miralo en YouTube!', null, null, [
     ['Audio 🎧', `${usedPrefix}yta ${url} yes`],
     ['Video 🎥', `${usedPrefix}ytv ${url} yes`],
-    ['Buscador de Youtube🔎', `${usedPrefix}buscaryt ${url}`],
-    ['S', `125`]
+    ['Buscador de Youtube🔎', `${usedPrefix}buscaryt ${url}`]
   ], m)
 }
 handler.help = ['ᴘʟᴀʏ <ᴛɪᴛᴜʟᴏ>','ᴘʟᴀʏ2']
