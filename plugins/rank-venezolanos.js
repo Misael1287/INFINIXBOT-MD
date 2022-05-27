@@ -1,4 +1,4 @@
-let pp = './media/peruanos.jpg'
+let pp = './media/venezolanos.jpg'
 let user = a => '@' + a.split('@')[0]
 function handler(m, { groupMetadata }) {
 let ps = groupMetadata.participants.map(v => v.id)
