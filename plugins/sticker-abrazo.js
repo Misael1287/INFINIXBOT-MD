@@ -12,6 +12,6 @@ let stiker = await sticker(null, link, `+${m.sender.split('@')[0]} le dio un abr
 conn.sendFile(m.chat, stiker, null, { asSticker: true })
 } catch (e) { }}
 handler.help = ['ᴀʙʀᴀᴢᴏ']
-handler.tags = ['sticker']
+handler.tags = ['sticker menu']
 handler.command = /^(abrazo|hug|consolar)$/i
 export default handler
