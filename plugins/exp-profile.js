@@ -21,9 +21,10 @@ let handler = async (m, { conn, usedPrefix }) => {
 │➺XP: TOTAL ${exp} (${exp - min} / ${xp}) [${math <= 0 ? `Listo para *${usedPrefix}levelup*` : `${math} XP restante para subir de nivel`}]
 │➺Level: ${level}
 │➺Role: *${role}*
-│➺Limite: ${limit}
+│➺Diamantes: ${limit}
 │➺Registro: ${registered ? 'Sí (' + new Date(regTime) + ')': 'No'}
 │➺Premium: ${prem ? 'Sí' : 'No'}${lastclaim > 0 ? '\nÚltimo Reclamo: ' + new Date(lastclaim) : ''}
+│➺Advertencias: 0/5
 ╰☆━「✦」━☆
 `.trim()
     let mentionedJid = [who]
