@@ -16,7 +16,7 @@ let handler = async (m, { conn, args, participants }) => {
 
 ${sortedExp.slice(0, len).map(({ jid, exp }, i) => `${i + 1}. ${participants.some(p => jid === p.jid) ? `(${conn.getName(jid)}) wa.me/` : '@'}${jid.split`@`[0]} *${exp} Exp*`).join`\n`}
 
-• *🔹𝙏𝙤𝙥 ${len} 𝙪𝙨𝙪𝙖𝙧𝙞𝙤𝙨 𝙘𝙤𝙣 𝙢𝙖𝙮𝙤𝙧 𝙡𝙞𝙢𝙞𝙩𝙚𝙨 𝙙𝙚𝙡 𝙗𝙤𝙩* •
+• *🔹𝙏𝙤𝙥 ${len} 𝙪𝙨𝙪𝙖𝙧𝙞𝙤𝙨 𝙘𝙤𝙣 𝙢𝙖𝙮𝙤𝙧 𝙙𝙞𝙖𝙢𝙖𝙣𝙩𝙚𝙨 𝙙𝙚𝙡 𝙗𝙤𝙩* •
 ᴜꜱᴜᴀʀɪᴏꜱ: *${usersLim.indexOf(m.sender) + 1}* desde *${usersLim.length}*
 
 ${sortedLim.slice(0, len).map(({ jid, limit }, i) => `${i + 1}. ${participants.some(p => jid === p.jid) ? `(${conn.getName(jid)}) wa.me/` : '@'}${jid.split`@`[0]} *${limit} Limit*`).join`\n`}
