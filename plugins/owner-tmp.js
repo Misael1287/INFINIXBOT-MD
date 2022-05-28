@@ -23,7 +23,7 @@ const tmp = [tmpdir(), join(__dirname, '../tmp')]
 }
 handler.help = ['ᴀᴄᴇʟᴇᴀʀᴀʀ']
 handler.tags = ['main']
-handler.command = /^(cleartmp|acelerar)$/i
+handler.command = /^(acelerar)$/i
 
 handler.rowner = false
 
