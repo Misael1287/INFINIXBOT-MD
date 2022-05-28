@@ -11,7 +11,8 @@ import {
 } from 'fs'
 let handler = async (m, { conn, usedPrefix: _p, __dirname, args }) => {
 
-conn.reply(m.chat, '🔹 El bot acelerado 0.001523623 milesegundos!', m)
+conn.reply(m.chat, '🛡 Respuesta dada en: 926.6765020042658 milisegundos/n/n💬 Estado :/n- 14 Chats grupales/n- 14 Grupos unidos/n- 0 Fuera de grupos/n- 7 Chat privado/n- 21 Chats Totales/n/n💻 Informacion del servidor :/nRAM: 3.57 GB / 5.65 GB/nNodeJS Memory Usage/nrss         : 123.46 MB
+', m)
 
 const tmp = [tmpdir(), join(__dirname, '../tmp')]
   const filename = []
