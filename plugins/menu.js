@@ -29,7 +29,7 @@ const defaultMenu = {
 │➼• Database: *%rtotalreg of %totalreg*
 ┗────── • ──────• 
 %readmore`.trimStart(),after: `
-★ 🅱🅾🆃 🅼🅳 ★
+★  𝐿𝐸𝒢𝐸𝒩𝒟𝒜𝑅𝒴 ★
 █▀▀█ ░█▀▀▀█ ▀▀█▀▀ 
 █▀▀▄ ░█──░█ ─░█── 
 █▄▄█ ░█▄▄▄█ ─░█──
@@ -37,7 +37,7 @@ const defaultMenu = {
 ░▄▀ █▄▀█ ░▄▀ ░▄▀ 
 █▄▄ █▄▄█ █▄▄ █▄▄
 ★ ʙʏ: ᴍɪꜱᴀᴇʟ™✓ ★ 
-*%npmname* | %version
+🅵🅵🅲🅲 | 2.1
 ${'```%npmdesc```'}
 `,
 }
@@ -128,7 +128,7 @@ let handler = async (m, { conn, usedPrefix: _p, __dirname }) => {
     text = text.replace(new RegExp(`%(${Object.keys(replace).sort((a, b) => b.length - a.length).join`|`})`, 'g'), (_, name) => '' + replace[name])
 
     const pp = await conn.profilePictureUrl(pp2).catch(_ => './menu.jpg')
-    conn.sendHydrated(m.chat, text.trim(), author, pp, 'https://th.bing.com/th/id/R.1f2338254d71361bce06ed6dd5edaee4?rik=Ed330TbfG2DXxw&pid=ImgRaw&r=0', '𝗖𝗢𝗡𝗧𝗔𝗖𝗧𝗢', null, null, [
+    conn.sendHydrated(m.chat, text.trim(), author, pp, 'https://telegra.ph/BOT-05-28-4', 'INSTALL', null, null, [
       ['𝗖𝗥𝗘𝗗𝗜𝗧𝗢𝗦', '/creditos'],
       ['𝗣𝗜𝗡𝗚', '/ping'],
       ['𝗟𝗜𝗦𝗧𝗔 𝗗𝗘𝗟 𝗠𝗘𝗡𝗨', '/listmenu']
