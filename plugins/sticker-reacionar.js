@@ -6,7 +6,7 @@ let handler = async (m, { conn, args, usedPrefix, command }) => {
   conn.relayMessage(m.chat, { reactionMessage: proto.ReactionMessage.create({ key: q.key, text: args[0] }) }, { messageId: q.key.id })
 }
 handler.help = ['ʀᴇᴀᴄᴄɪᴏɴᴀʀ <emoji>']
-handler.tags = ['sticker']
+handler.tags = ['sticker menu']
 handler.command = ['reaccionar', 'react', 'reaccion'] 
 
 export default handler
