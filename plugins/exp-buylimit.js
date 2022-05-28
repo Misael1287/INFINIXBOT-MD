@@ -6,8 +6,8 @@ let handler = async (m, { conn, command, args }) => {
   if (global.db.data.users[m.sender].exp >= xpperlimit * count) {
     global.db.data.users[m.sender].exp -= xpperlimit * count
     global.db.data.users[m.sender].limit += count
-    conn.reply(m.chat, `-${xpperlimit * count} XP\n+ ${count} Limit`, m)
-  } else conn.reply(m.chat, `🔹Tú XP no es suficiente para comprar ${count} limites`, m)
+    conn.reply(m.chat, `-${xpperlimit * count} XP\n+ ${count} 💎`, m)
+  } else conn.reply(m.chat, `🔹Tú XP no es suficiente para comprar ${count} 💎`, m)
 }
 handler.help = ['ʙᴜʏ <ɪɴɢʀᴇꜱᴀ ʟᴀ ᴄᴀɴᴛɪᴅᴀᴅ>', 'ʙᴜʏᴀʟʟ <ᴄᴏᴍᴘʀᴀ ᴛᴏᴅᴏ ʟᴏ ᴘᴏꜱɪʙʟᴇ ᴅᴇ ʟɪᴍɪᴛᴇꜱ>']
 handler.tags = ['exp y limites'] 
