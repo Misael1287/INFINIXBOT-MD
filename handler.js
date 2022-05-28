@@ -486,8 +486,8 @@ export async function handler(chatUpdate) {
                 else
                     m.exp += xp
                 if (!isPrems && plugin.limit && global.db.data.users[m.sender].limit < plugin.limit * 1) {
-                    this.reply(m.chat, `🔻Sin limites para aplicar, usa #reclamarxp para comprar mas limites con el comando #buy <cantidad>
-                    o #buyall para comprar todo lo posible de limites. Recuerda que solo puedes reclamarxp una ves al dia `, m)
+                    this.reply(m.chat, `🔻Sin 💎 para aplicar, usa #reclamarxp para comprar mas 💎 con el comando #buy <cantidad>
+                    o #buyall para comprar todo lo posible de 💎. Recuerda que solo puedes reclamarxp una ves al dia `, m)
                     continue // Límite vencido
                 }
                 if (plugin.level > _user.level) {
@@ -547,7 +547,7 @@ export async function handler(chatUpdate) {
                         }
                     }
                     if (m.limit)
-                        m.reply(+m.limit + ' Limite aplicado correctamente')
+                        m.reply(+m.limit + ' 💎 aplicado correctamente')
                 }
                 break
             }
