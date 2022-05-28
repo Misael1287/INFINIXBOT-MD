@@ -8,7 +8,7 @@ type: 'audioMessage', // paksa tanpa convert di ffmpeg
 ptt: true // true diatas ga work, sebab dipaksa tanpa convert ;v
 })
 }
-handler.customPrefix = ['ᴛᴜʀʙɪᴏ', 'ʀᴇᴛᴜʀʙɪᴏ']
+handler.customPrefix = ['turbio', 'returbio']
 handler.command = new RegExp
 handler.help = ['ʀᴇᴛᴜʀʙɪᴏ']
 handler.tags = ['audios']
