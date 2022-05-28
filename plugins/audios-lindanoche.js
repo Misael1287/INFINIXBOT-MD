@@ -9,9 +9,9 @@ type: 'audioMessage', // paksa tanpa convert di ffmpeg
 ptt: true // true diatas ga work, sebab dipaksa tanpa convert ;v
 })
 }
-handler.customPrefix = ['que linda esta la noche', 'linda noche']
+handler.customPrefix = ['noche', 'nohes']
 handler.command = new RegExp
-handler.help = ['Qᴜᴇ ʟɪɴᴅᴀ Qᴜᴇ ᴇꜱᴛᴀ ʟᴀ ɴᴏᴄʜᴇ']
+handler.help = ['ɴᴏᴄʜᴇ']
 handler.tags = ['audios']
 handler.fail = null
 handler.exp = 100
