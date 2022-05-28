@@ -11,7 +11,7 @@ import {
 } from 'fs'
 let handler = async (m, { conn, usedPrefix: _p, __dirname, args }) => {
 
-conn.reply(m.chat, '🔹Hecho !', m)
+conn.reply(m.chat, '🔹 El bot acelerado 0.001523623 milesegundos!', m)
 
 const tmp = [tmpdir(), join(__dirname, '../tmp')]
   const filename = []
@@ -21,9 +21,9 @@ const tmp = [tmpdir(), join(__dirname, '../tmp')]
     unlinkSync(file)
 })
 }
-handler.help = ['ᴄʟᴇᴀʀᴛᴍᴘ']
-handler.tags = ['owner menu']
-handler.command = /^(cleartmp)$/i
+handler.help = ['ᴀᴄᴇʟᴇᴀʀᴀʀ']
+handler.tags = ['main']
+handler.command = /^(cleartmp│acelerar)$/i
 
 handler.rowner = false
 
