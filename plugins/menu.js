@@ -130,7 +130,7 @@ let handler = async (m, { conn, usedPrefix: _p, __dirname }) => {
     const pp = await conn.profilePictureUrl(pp2).catch(_ => './menu.jpg')
     conn.sendHydrated(m.chat, text.trim(), author, pp, 'https://telegra.ph/BOT-05-28-4', 'INSTALL', null, null, [
       ['𝗖𝗥𝗘𝗗𝗜𝗧𝗢𝗦', '/creditos'],
-      ['𝗣𝗜𝗡𝗚', '/ping'],
+      ['𝗣𝗜𝗡𝗚', '/acelerar'],
       ['𝗟𝗜𝗦𝗧𝗔 𝗗𝗘𝗟 𝗠𝗘𝗡𝗨', '/listmenu']
     ], m)
   } catch (e) {
