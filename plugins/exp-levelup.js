@@ -15,11 +15,13 @@ Nivel *${user.level} (${user.exp - min}/${xp})*
     if (before !== user.level) {
         let teks = `Felicidades ${conn.getName(m.sender)} has subido de nivel 🔺`
         let str = `
-${teks} 
-• 🧬Niveles anteriores: ${before}
-• 🧬Nuevos niveles: ${user.level}
-• A que hora : ${new Date().toLocaleString('id-ID')}
-*_🔺Cuanto más interactus con el bot, mayor xp ganaras y subiras de nivel‼_*
+╔═════════════════════════════  
+║${teks} 
+║• 🧬Niveles anteriores: ${before}
+║• 🧬Nuevos niveles: ${user.level}
+║• A que hora : ${new Date().toLocaleString('id-ID')}
+║*_🔺Cuanto más interactus con el bot, mayor xp ganaras y subiras de nivel‼_*
+╚═════════════════════════════
 `.trim()
         try {
             const img = await levelup(teks, user.level)
