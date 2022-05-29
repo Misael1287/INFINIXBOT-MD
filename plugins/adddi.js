@@ -14,7 +14,6 @@ let handler = async (m, { conn, text }) => {
     limit += pjk
     if (limit < 1) throw '🔹 Mínimo es  *1*'
     let users = global.db.data.users
-   users[who].limit += dmt
 
     m.reply(`≡ *💎 AÑADIDO*
 『───────────────╗
