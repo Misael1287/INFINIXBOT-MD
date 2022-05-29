@@ -16,8 +16,8 @@ conn.sendHydrated(m.chat, `
 │⫹⫺ 👀 *𝚅𝙸𝚂𝚃𝙰𝚂:* ${viewH}
 └───────────────────────
 `.trim(), author, thumbnail, `${url}`, '𝚄𝚁𝙻', null, null, [
-['𝐀𝐔𝐃𝐈𝐎', `${usedPrefix}yta.2 ${url} yes`],
-['𝐕𝐈𝐃𝐄𝐎', `${usedPrefix}ytv.2 ${url} yes`]
+['Audio 🎧', `${usedPrefix}yta.2 ${url} yes`],
+['Video 🎥', `${usedPrefix}ytv.2 ${url} yes`]
 ], m)
 }catch(e){
 m.reply('🔹 Error vuelve a intentarlo')
