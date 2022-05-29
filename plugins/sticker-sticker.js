@@ -25,7 +25,7 @@ let handler = async (m, { conn, args, usedPrefix, command }) => {
         if (!stiker) stiker = await sticker(img, false, global.packname)
       }
     } else if (args[0]) {
-      if (isUrl(args[0])) stiker = await sticker(false, args[0], global.packname)
+      if (isUrl(args[0])) stiker = await sticker(false, args[0], 'Misael')
       else return m.reply('🔹¡URL invalida!')
     }
   } catch (e) {
