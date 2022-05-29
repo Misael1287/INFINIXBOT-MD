@@ -49,7 +49,7 @@ Bot operativo
 Este bot no admite el jadibot o sub bots debido a que puede llegar a ser incontrolable.
 
 `
-    conn.sendButton(m.chat, info1, info, author, [['MENU', `#menu`]], m)
+    conn.sendButton(m.chat, info1, info, author, [['MENU', `#menu`, 'MENU', `#menu ]], m)
 }
 
 
