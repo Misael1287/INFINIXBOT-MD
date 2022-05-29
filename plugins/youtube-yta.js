@@ -42,6 +42,6 @@ handler.tags = ['descargas']
 handler.command = /^yt(a|mp3)$/i
 
 handler.exp = 0
-handler.limit = 2
+handler.limit = 1
 export default handler
 
