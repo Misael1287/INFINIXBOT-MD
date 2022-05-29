@@ -11,7 +11,7 @@ let handler = async (m, { isAdmin, isOwner, conn, command }) => {
 }
 handler.help = ['ʀᴇᴇꜱᴛᴀʙʟᴇᴄᴇʀ']
 handler.tags = ['grupos']
-handler.command = /reestablecer/i
+handler.command = /reestablecer|restablecer/i
 
 handler.group = true
 handler.botAdmin = true
