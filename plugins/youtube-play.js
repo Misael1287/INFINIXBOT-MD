@@ -6,12 +6,14 @@ let handler = async (m, { conn, command, text, usedPrefix }) => {
   let { title, description, thumbnail, videoId, durationH, viewH, publishedTime } = vid
   const url = 'https://www.youtube.com/watch?v=' + videoId
   await conn.sendHydrated(m.chat, `
-📌 *Titulo:* ${title}
-🔗 *Url:* ${url}
-🖹 *Descripción:* ${description}
-⏲️ *Publicado en:* ${publishedTime}
-⌚ *Duración:* ${durationH}
-👁️ *Vistas:* ${viewH}
+┌───「 *REPRODUCTOR* 」
+│⫹⫺ 📌 *Titulo:* ${title}
+│⫹⫺ 🔗 *Url:* ${url}
+│⫹⫺ 🖹 *Descripción:* ${description}
+│⫹⫺ ⏲️ *Publicado en:* ${publishedTime}
+│⫹⫺ ⌚ *Duración:* ${durationH}
+│⫹⫺ 👁️ *Vistas:* ${viewH}
+└───────────────────────
   `.trim(), author, thumbnail, url, '📺Miralo en YouTube!', null, null, [
     ['Audio 🎧', `${usedPrefix}yta ${url} yes`],
     ['Video 🎥', `${usedPrefix}ytv ${url} yes`],
