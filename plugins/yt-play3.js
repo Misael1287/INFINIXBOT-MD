@@ -1,8 +1,8 @@
 import { youtubeSearch } from '@bochilteam/scraper'
 let handler = async (m, { conn, command, text, usedPrefix }) => {
-if (!text) throw `*[❗𝐈𝐍𝐅𝐎❗] 𝙽𝙾𝙼𝙱𝚁𝙴 𝙳𝙴 𝙻𝙰 𝙲𝙰𝙽𝙲𝙸𝙾𝙽 𝙵𝙰𝙻𝚃𝙰𝙽𝚃𝙴, 𝙿𝙾𝚁 𝙵𝙰𝚅𝙾𝚁 𝙸𝙽𝙶𝚁𝙴𝚂𝙴 𝙴𝙻 𝙲𝙾𝙼𝙰𝙽𝙳𝙾 𝙼𝙰𝚂 𝙴𝙻 𝙽𝙾𝙼𝙱𝚁𝙴/𝚃𝙸𝚃𝚄𝙻𝙾 𝙳𝙴 𝚄𝙽𝙰 𝙲𝙰𝙽𝙲𝙸𝙾𝙽*\n\n*—◉ 𝙴𝙹𝙴𝙼𝙿𝙻𝙾:*\n*#playdoc Good Feeling - Flo Rida*`
+if (!text) throw `🔹𝘗𝘢𝘳𝘢 𝘥𝘦𝘴𝘤𝘢𝘳𝘨𝘢𝘳 𝘶𝘯𝘢 𝘤𝘢𝘯𝘤𝘪𝘰́𝘯 𝘰 𝘷𝘪𝘥𝘦𝘰 𝘶𝘴𝘢 𝘤𝘰𝘮𝘰 𝘦𝘫𝘦𝘮𝘱𝘭𝘰: ${usedPrefix}${command} i'm happy faraon ☑`
 let vid = (await youtubeSearch(text)).video[0]
-if (!vid) throw '*[❗𝐈𝐍𝐅𝐎❗] 𝙻𝙾 𝚂𝙸𝙴𝙽𝚃𝙾, 𝙽𝙾 𝙿𝚄𝙳𝙴 𝙴𝙽𝙲𝙾𝙽𝚃𝚁𝙰𝚁 𝙴𝙻 𝙰𝚄𝙳𝙸𝙾/𝚅𝙸𝙳𝙴𝙾, 𝙸𝙽𝚃𝙴𝙽𝚃𝙴 𝙲𝙾𝙽 𝙾𝚃𝚁𝙾 𝙽𝙾𝙼𝙱𝚁𝙴/𝚃𝙸𝚃𝚄𝙻𝙾*'
+if (!vid) throw '🔹Lo sentimos, Vídeo/Audio no encontrado❌, intente con otro nombre ☑'
 try {
 let { title, description, thumbnail, videoId, durationH, viewH, publishedTime } = vid
 const url = 'https://www.youtube.com/watch?v=' + videoId
@@ -19,7 +19,7 @@ conn.sendHydrated(m.chat, `
 ['𝐕𝐈𝐃𝐄𝐎', `${usedPrefix}ytv.2 ${url} yes`]
 ], m)
 }catch(e){
-m.reply('*[❗𝐈𝐍𝐅𝐎❗] 𝙴𝚁𝚁𝙾𝚁, 𝙿𝙾𝚁 𝙵𝙰𝚅𝙾𝚁 𝚅𝚄𝙴𝙻𝚅𝙰 𝙰 𝙸𝙽𝚃𝙴𝙽𝚃𝙰𝚁𝙻𝙾*')
+m.reply('🔹 Error vuelve a intentarlo')
 console.log(e)
 }}
 handler.command = /^lllmd|play3|playdoc?$/i
