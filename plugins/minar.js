@@ -12,7 +12,7 @@ let handler = async (m, { conn, isPrems}) => {
   global.db.data.users[m.sender].lastmiming = new Date * 1
 }
 handler.help = ['minar']
-handler.tags = ['xp']
+handler.tags = ['exp y limites']
 handler.command = ['minar', 'miming', 'mine'] 
 
 handler.fail = null
