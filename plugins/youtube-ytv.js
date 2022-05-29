@@ -46,7 +46,7 @@ handler.tags = ['descargas']
 handler.command = /^yt(v|mp4)?$/i
 
 handler.exp = 0
-handler.limit = 2
+handler.limit = 1
 
 export default handler
 
