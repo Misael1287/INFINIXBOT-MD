@@ -12,7 +12,7 @@ let handler = async (m, { conn, usedPrefix, command }) => {
     if (!json.url) throw '🔹 Error'
     conn.sendButton(m.chat, '🔹 Aquí tienes', igfg, json.url, [['▷▷ Siguiente', `${usedPrefix + command }`]], m)
 }
-handler.help = ['pussy']
+handler.help = ['ᴘᴜꜱꜱʏ']
 handler.tags = ['menu 18']
 handler.command = ['pussy']
 handler.limit = true
