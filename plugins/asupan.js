@@ -10,7 +10,7 @@ let handler = async(m, { conn }) => {
   
 await conn.sendFile(m.chat, pickRandom(asupan), 'asupan.mp4', '🔹 Aquí tiene', m)
 }
-handler.help = ['asupan']
+handler.help = ['ᴀꜱᴜᴘᴀɴ']
 handler.tags = ['menu 18']
 handler.command = ['asupan']
 handler.premium = false
