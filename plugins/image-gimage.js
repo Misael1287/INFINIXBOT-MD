@@ -7,13 +7,11 @@ let handler = async (m, { conn, text, usedPrefix, command }) => {
 *── 「 ɪᴍᴀɢᴇɴ ɢᴏᴏɢʟᴇ」 ──*
 
 El resultado de *${text}*
-
-${author}
 `.trim(), m)
 }
 handler.help = ['ɢɪᴍᴀɢᴇ <ᴛᴇxᴛᴏ>', 'image']
 handler.tags = ['descargas']
-handler.command = /^(gimage|image)$/i
+handler.command = /^(gimage|image|imagen)$/i
 handler.limit   = true
 export default handler
 
