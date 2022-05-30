@@ -21,6 +21,6 @@ let handler = async (m, { text }) => {
 }
 handler.help = ['ʙᴜꜱᴄᴀʀʏᴛ']
 handler.tags = ['descargas', 'herramientas']
-handler.command = /buscaryt/i
+handler.command = /buscaryt|ytsearch/i
 handler.limit = false
 export default handler
