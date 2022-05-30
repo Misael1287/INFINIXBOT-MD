@@ -18,6 +18,8 @@ puesdes hacer tu propio bot aqui: https://telegra.ph/BOT-05-28-4
 
 
 handler.customPrefix = /jadibot|serbot/i
+handler.help = ['serbot']
+handler.tags = ['main']
 handler.command = new RegExp
 handler.fail = null
 export default handler
