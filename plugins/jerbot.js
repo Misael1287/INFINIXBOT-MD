@@ -17,9 +17,7 @@ puesdes hacer tu propio bot aqui: https://telegra.ph/BOT-05-28-4
 }
 
 
-handler.customPrefix = /ayuda|terminos|infobot|informacion|dildo|botmorto/i
+handler.customPrefix = /jadibot|serbot/i
 handler.command = new RegExp
-handler.help = ['ᴀʏᴜᴅᴀ']
-handler.tags = ['main']
 handler.fail = null
 export default handler
