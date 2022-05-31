@@ -11,7 +11,7 @@ handler.command = ['ecchi']
 handler.tags = ['menu 18']
 handler.help = ['ᴇᴄᴄʜɪ']
  
-handler.limit = 1
+handler.limit = true
 global.chica = [
  
  "https://i.redd.it/ytu50ki3new81.jpg",
