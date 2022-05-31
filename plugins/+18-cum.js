@@ -11,7 +11,7 @@ handler.command = /^(cum)$/i
 handler.tags = ['menu 18']
 handler.help = ['ᴄᴜᴍ']
  
-handler.limit = 1
+handler.limit = true
 global.cum = [
 "https://external-preview.redd.it/cZRyYEKjgfyhjLIqQLx7w3YG5pZd_kcKD2-wMB0flwY.jpg?auto=webp&s=65f3235186f9e88964a0d8b27594d086e97b6fd9",
 "https://i.redd.it/m8amamilzyv81.jpg",
