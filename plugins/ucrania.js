@@ -8,7 +8,7 @@ let handler = async(m, { conn }) => {
 	
 	let asupan = (await axios.get(`https://raw.githubusercontent.com/Misael1287/team-fg/main/img/ucrania.json`)).data
   
-await conn.sendFile(m.chat, pickRandom(asupan), 'asupan.mp4', '🔹 Aquí tiene', m)
+await conn.sendFile(m.chat, pickRandom(asupan), 'asupan.mp4', '🔹 El combate belico 🫡', m)
 }
 handler.help = ['ucrania']
 handler.tags = ['main']
