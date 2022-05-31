@@ -15,5 +15,5 @@ handler.help = ['tetas']
 handler.tags = ['menu 18']
 
 handler.command = /^(tetas)$/i
-handler.limit   = 1
+handler.limit   = true
 export default handler 
