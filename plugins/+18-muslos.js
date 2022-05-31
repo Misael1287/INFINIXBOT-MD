@@ -14,7 +14,7 @@ handler.command = ['muslos']
 handler.help = ['ᴍᴜꜱʟᴏꜱ']
 handler.tags = ['menu 18']
  
-handler.limit = 1
+handler.limit = true
 global.muslos = [
 	"https://preview.redd.it/j2atzo32k9l81.jpg?width=640&crop=smart&auto=webp&s=9e339987302cf89ba72a757be5b32b1a043f778a", 
 	"https://preview.redd.it/nafxgr82k9l81.jpg?width=540&format=pjpg&auto=webp&s=361ab3939c2884f49fc1a28dc28754e0de9f18bf",
