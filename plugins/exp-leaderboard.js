@@ -21,7 +21,7 @@ ${sortedExp.slice(0, len).map(({ jid, exp }, i) => `${i + 1}. ${participants.som
 
 ${sortedLim.slice(0, len).map(({ jid, limit }, i) => `${i + 1}. ${participants.some(p => jid === p.jid) ? `(${conn.getName(jid)}) wa.me/` : '@'}${jid.split`@`[0]} *${limit} Limit*`).join`\n`}
 
-• *𝙏𝙤𝙥 ${len} 𝙪𝙨𝙪𝙖𝙧𝙞𝙤𝙨 𝙘𝙤𝙣 𝙢𝙖𝙮𝙤𝙧 𝙣𝙞𝙫𝙚𝙡 𝙙𝙚𝙡 𝙗𝙤𝙩 ${len}* •
+• *🔹𝙏𝙤𝙥 ${len} 𝙪𝙨𝙪𝙖𝙧𝙞𝙤𝙨 𝙘𝙤𝙣 𝙢𝙖𝙮𝙤𝙧 𝙣𝙞𝙫𝙚𝙡 𝙙𝙚𝙡 𝙗𝙤𝙩 ${len}* •
 ᴜꜱᴜᴀʀɪᴏꜱ: *${usersLevel.indexOf(m.sender) + 1}* desde *${usersLevel.length}*
 
 ${sortedLevel.slice(0, len).map(({ jid, level }, i) => `${i + 1}. ${participants.some(p => jid === p.jid) ? `(${conn.getName(jid)}) wa.me/` : '@'}${jid.split`@`[0]} *Level ${level}*`).join`\n`}
