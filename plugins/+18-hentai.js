@@ -13,8 +13,8 @@ handler.tags = ['menu 18']
  
 handler.limit = true
 global.ecchi = [
-	"https://preview.redd.it/efy32fvn8zv81.jpg?width=640&crop=smart&auto=webp&s=8200f495446861ae330114febc8af9fef31c4c7f",
-	"https://preview.redd.it/hipk0fvn8zv81.jpg?width=640&crop=smart&auto=webp&s=67961bd619a3c2a0c84146e7fdf04c2e3e52fcec",
+   "https://preview.redd.it/efy32fvn8zv81.jpg?width=640&crop=smart&auto=webp&s=8200f495446861ae330114febc8af9fef31c4c7f",
+   "https://preview.redd.it/hipk0fvn8zv81.jpg?width=640&crop=smart&auto=webp&s=67961bd619a3c2a0c84146e7fdf04c2e3e52fcec",
    "https://preview.redd.it/xevdcfvn8zv81.jpg?width=640&crop=smart&auto=webp&s=dc2a6a8273ccd84e73c5e741238b88d76a92c6c9",
    "https://preview.redd.it/ereybubf9nv81.jpg?width=640&crop=smart&auto=webp&s=fe2aff09badfa055954cc128c6cd2cc792c9aeed",
    "https://preview.redd.it/35eakhsf9nv81.jpg?width=640&crop=smart&auto=webp&s=b6cd7ddc9814d1ba9125162f68ea8e5f78e9b8c8",
