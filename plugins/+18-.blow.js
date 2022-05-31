@@ -11,7 +11,7 @@ handler.command = ['mamada']
 handler.tags = ['menu 18']
 handler.help = ['ᴍᴀᴍᴀᴅᴀ']
  
-handler.limit = 1
+handler.limit = true
 global.job = [ 
 "https://external-preview.redd.it/O4dQVak3T-I4Hu-LrnMks-59GW8Og0Ioxf7SylCdowA.gif?format=mp4&s=bc4425f2f796c427d7ae3aabe453f13d5700c3cc",
 "https://preview.redd.it/4roszt1jdko51.gif?format=mp4&s=d7715b2fc9b65fd1b01ebd1a60c619b41c79a155",
