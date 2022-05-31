@@ -6,7 +6,7 @@ let handler = async(m, { conn, usedPrefix, command }) => {
 	let girl = (await axios.get(`https://raw.githubusercontent.com/Misael1287/team-fg/main/img/cosplay.json`)).data
   
 //await conn.sendFile(m.chat, pickRandom(girl), 'girl.jpg', ✅ Resultado 🤭', m)
-await conn.sendButton(m.chat, '🔹 Cosplay', 'Click en siguiente para ir a la siguiente imagen', pickRandom(girl), [['▷▷ SIGUIENTE', `${usedPrefix + command}`]],m)
+await conn.sendButton(m.chat, '🔹 Cosplay', 'Click en siguiente para ir a la siguiente imagen', pickRandom(girl), [['SIGUIENTE ➡', `${usedPrefix + command}`]],m)
 }
 handler.help = ['cosplay']
 handler.tags = ['img']
