@@ -5,13 +5,13 @@ let handler = async (m, { conn }) => {
 if (!db.data.chats[m.chat].antojar && m.isGroup) throw '*‼Comandos +18 desactivados, ¿Deseas activarlos? si eres administrador escribe #enable antojar.*'   
 	let url = cum[Math.floor(Math.random() * cum.length)]
 
-  await conn.sendButton(m.chat, '🔹ᴛᴏᴍᴀ ᴛᴜ ᴄᴏɴᴛᴇɴɪᴅᴏ ᴍᴀꜱᴛᴇʀ 🥵', author, url, [['SIGUIENTE ➡', `#cum`]], m)}
+  await conn.sendButton(m.chat, '🔹ᴛᴏᴍᴀ ᴛᴜ ᴄᴏɴᴛᴇɴɪᴅᴏ ᴍᴀꜱᴛᴇʀ 🥵', 'Click en siguiente para ir a la siguiente imagen', url, [['SIGUIENTE ➡', `#cum`]], m)}
 
 handler.command = /^(cum)$/i
 handler.tags = ['menu 18']
 handler.help = ['ᴄᴜᴍ']
  
-handler.limit = 3
+handler.limit = 1
 global.cum = [
 "https://external-preview.redd.it/cZRyYEKjgfyhjLIqQLx7w3YG5pZd_kcKD2-wMB0flwY.jpg?auto=webp&s=65f3235186f9e88964a0d8b27594d086e97b6fd9",
 "https://i.redd.it/m8amamilzyv81.jpg",
