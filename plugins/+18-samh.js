@@ -10,7 +10,7 @@ handler.command = /^(samh)$/i
 handler.help = ['ꜱᴀᴍʜ']
 handler.tags = ['menu 18'] 
 
-handler.limit = 1
+handler.limit = true
 global.pack = [
   "https://i.ibb.co/zGygftm/1.jpg",
   "https://i.ibb.co/mzhz0qC/2.jpg" ,
