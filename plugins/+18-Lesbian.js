@@ -8,7 +8,7 @@ let json = res.data
 let url = json.url
 let who = m.mentionedJid && m.mentionedJid[0] ? m.mentionedJid[0] : m.fromMe ? conn.user.jid : m.sender
 let mentionedJid = [who]
-conn.sendButton(m.chat, '🔹ᴛᴏᴍᴀ ᴛᴜ ᴄᴏɴᴛᴇɴɪᴅᴏ ᴍᴀꜱᴛᴇʀ 🥵 ', author, json.url, [['SIGUIENTE ➡', `${usedPrefix}lesbian`]], m)}
+conn.sendButton(m.chat, '🔹ᴛᴏᴍᴀ ᴛᴜ ᴄᴏɴᴛᴇɴɪᴅᴏ ᴍᴀꜱᴛᴇʀ 🥵 ', 'Click en siguiente para ir a la siguiente imagen', json.url, [['SIGUIENTE ➡', `${usedPrefix}lesbian`]], m)}
 
 
 handler.help = ['ʟᴇꜱʙɪᴀɴ']
