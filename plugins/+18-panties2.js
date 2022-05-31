@@ -12,5 +12,5 @@ handler.tags = ['menu 18']
 handler.help = ['ᴘᴀɴᴛɪᴇꜱ2']
 
 handler.command = /^(panties2)$/i
-handler.limit = 1
+handler.limit = true
 export default handler
