@@ -7,14 +7,14 @@ let handler = async (m, { conn }) => {
 if (!db.data.chats[m.chat].antojar && m.isGroup) throw '*‼Comandos +18 desactivados, ¿Deseas activarlos? si eres administrador escribe #enable antojar.*'
 	let url = muslos[Math.floor(Math.random() * muslos.length)]
 
-  await conn.sendButton(m.chat, '🔹ᴛᴏᴍᴀ ᴛᴜ ᴄᴏɴᴛᴇɴɪᴅᴏ ᴍᴀꜱᴛᴇʀ 🥵', author, url, [['SIGUIENTE ➡', `#muslos`]], m)}
+  await conn.sendButton(m.chat, '🔹ᴛᴏᴍᴀ ᴛᴜ ᴄᴏɴᴛᴇɴɪᴅᴏ ᴍᴀꜱᴛᴇʀ 🥵', 'Click en siguiente para ir a la siguiente imagen', url, [['SIGUIENTE ➡', `#muslos`]], m)}
 
 handler.command = ['muslos']
 
 handler.help = ['ᴍᴜꜱʟᴏꜱ']
 handler.tags = ['menu 18']
  
-handler.limit = 2
+handler.limit = 1
 global.muslos = [
 	"https://preview.redd.it/j2atzo32k9l81.jpg?width=640&crop=smart&auto=webp&s=9e339987302cf89ba72a757be5b32b1a043f778a", 
 	"https://preview.redd.it/nafxgr82k9l81.jpg?width=540&format=pjpg&auto=webp&s=361ab3939c2884f49fc1a28dc28754e0de9f18bf",
