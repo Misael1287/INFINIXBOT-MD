@@ -4,14 +4,14 @@ let handler = async (m, { conn }) => {
 if (!db.data.chats[m.chat].antojar && m.isGroup) throw '*‼Comandos +18 desactivados, ¿Deseas activarlos? si eres administrador escribe #enable antojar.*'  
 	let url = ecchi[Math.floor(Math.random() * ecchi.length)]
 
-  await conn.sendButton(m.chat, '🔹ᴛᴏᴍᴀ ᴛᴜ ᴄᴏɴᴛᴇɴɪᴅᴏ ᴍᴀꜱᴛᴇʀ 🥵', author, url, [['SIGUIENTE ➡', `#hentai`]], m)}
+  await conn.sendButton(m.chat, '🔹ᴛᴏᴍᴀ ᴛᴜ ᴄᴏɴᴛᴇɴɪᴅᴏ ᴍᴀꜱᴛᴇʀ 🥵', 'Click en siguiente para ir a la siguiente imagen', url, [['SIGUIENTE ➡', `#hentai`]], m)}
 
 handler.command = ['hentai']
 
 handler.help = ['ʜᴇɴᴛᴀɪ']
 handler.tags = ['menu 18']
  
-handler.limit = 3
+handler.limit = 1
 global.ecchi = [
 	"https://preview.redd.it/efy32fvn8zv81.jpg?width=640&crop=smart&auto=webp&s=8200f495446861ae330114febc8af9fef31c4c7f",
 	"https://preview.redd.it/hipk0fvn8zv81.jpg?width=640&crop=smart&auto=webp&s=67961bd619a3c2a0c84146e7fdf04c2e3e52fcec",
