@@ -3,14 +3,14 @@ let handler = async (m, { conn }) => {
 if (!db.data.chats[m.chat].antojar && m.isGroup) throw '*‼Comandos +18 desactivados, ¿Deseas activarlos? si eres administrador escribe #enable antojar.*'  
 	let url = pack[Math.floor(Math.random() * pack.length)]
 
-  await conn.sendButton(m.chat, '🔹ᴛᴏᴍᴀ ᴛᴜ ᴄᴏɴᴛᴇɴɪᴅᴏ ᴍᴀꜱᴛᴇʀ 🥵', author, url, [['SIGUIENTE ➡', `#samh`]], m)}
+  await conn.sendButton(m.chat, '🔹ᴛᴏᴍᴀ ᴛᴜ ᴄᴏɴᴛᴇɴɪᴅᴏ ᴍᴀꜱᴛᴇʀ 🥵', 'Click en siguiente para ir a la siguiente imagen', url, [['SIGUIENTE ➡', `#samh`]], m)}
 
 handler.command = /^(samh)$/i
 
 handler.help = ['ꜱᴀᴍʜ']
 handler.tags = ['menu 18'] 
 
-handler.limit = 2
+handler.limit = 1
 global.pack = [
   "https://i.ibb.co/zGygftm/1.jpg",
   "https://i.ibb.co/mzhz0qC/2.jpg" ,
