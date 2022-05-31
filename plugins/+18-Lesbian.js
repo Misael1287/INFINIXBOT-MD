@@ -14,5 +14,5 @@ conn.sendButton(m.chat, '🔹ᴛᴏᴍᴀ ᴛᴜ ᴄᴏɴᴛᴇɴɪᴅᴏ ᴍᴀ
 handler.help = ['ʟᴇꜱʙɪᴀɴ']
 handler.tags = ['menu 18']
 handler.command = /^(lesbian)$/i
-handler.limit   = 1
+handler.limit   = true
 export default handler
