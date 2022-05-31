@@ -5,13 +5,13 @@ let handler = async (m, { conn }) => {
   if (!db.data.chats[m.chat].antojar && m.isGroup) throw '*‼Comandos +18 desactivados, ¿Deseas activarlos? si eres administrador escribe #enable antojar.*'   
 	let url = chica[Math.floor(Math.random() * chica.length)]
 
-  await conn.sendButton(m.chat, '🔹ᴛᴏᴍᴀ ᴛᴜ ᴄᴏɴᴛᴇɴɪᴅᴏ ᴍᴀꜱᴛᴇʀ 🥵', author, url, [['SIGUIENTE ➡', `#ecchi`]], m)}
+  await conn.sendButton(m.chat, '🔹ᴛᴏᴍᴀ ᴛᴜ ᴄᴏɴᴛᴇɴɪᴅᴏ ᴍᴀꜱᴛᴇʀ 🥵', 'Click en siguiente para ir a la siguiente imagen', url, [['SIGUIENTE ➡', `#ecchi`]], m)}
 
 handler.command = ['ecchi']
 handler.tags = ['menu 18']
 handler.help = ['ᴇᴄᴄʜɪ']
  
-handler.limit = 3
+handler.limit = 1
 global.chica = [
  
  "https://i.redd.it/ytu50ki3new81.jpg",
