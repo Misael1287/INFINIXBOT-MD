@@ -12,7 +12,7 @@ await conn.sendFile(m.chat, pickRandom(asupan), 'asupan.mp4', '🔹 El combate b
 }
 handler.help = ['ucrania']
 handler.tags = ['main']
-handler.command = ['ucrania']
+handler.command = ['ucrania', 'ukraine']
 handler.premium = false
 handler.limit = true
 
