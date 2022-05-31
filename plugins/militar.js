@@ -8,9 +8,9 @@ let handler = async(m, { conn, usedPrefix, command }) => {
 //await conn.sendFile(m.chat, pickRandom(girl), 'girl.jpg', ✅ Resultado 🤭', m)
 await conn.sendButton(m.chat, '🔹 Militar', 'Click en siguiente para ir a la siguiente imagen', pickRandom(girl), [['SIGUIENTE ➡', `${usedPrefix + command}`]],m)
 }
-handler.help = ['cosplay']
+handler.help = ['Militar']
 handler.tags = ['img']
-handler.command = ['cosplay', 'difras']
+handler.command = ['militar', 'militares']
 handler.premium = false
 handler.limit = true
 
